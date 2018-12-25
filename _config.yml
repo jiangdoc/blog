@@ -79,7 +79,7 @@ ga_domain: huangxuan.me                  # 默认的是 auto, 这里我是自定
 # Sidebar settings
 sidebar: true                           # 添加侧边栏.
 sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # 你的大头贴，请使用绝对地址.
+sidebar-avatar: img/avatar-hux-ny.jpg      # 你的大头贴，请使用绝对地址.
 
 
 
