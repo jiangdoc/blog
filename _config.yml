@@ -1,10 +1,10 @@
 # Site settings
-title: Jiang Blog
+title: 乱码人生
 SEOTitle: 乱码人生的博客 | Jiang Blog
 header-img: img/home-bg.jpg
 email: 535516316@qq.com
-description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
-keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
+description: "关于程序与设计、黑客与画家 | 乱码人生，Web & Mobile Java，软件，Javaweb | 这里是 @jiangdoc 的个人博客，与你一起发现更大的世界。"
+keyword: "乱码人生, Jiang乱码人生, jiangdoc, Jiang, Jiang Blog, @Jiang乱码人生, 乱码人生的博客, Java, 博客, 个人网站, 互联网, Web, Java, javaweb,网站定制"
 #url: "https://Jiang.me"              # your host, for absolute URL
 #baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
@@ -13,10 +13,10 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
-zhihu_username:     huxpro
-github_username:    huxpro
-twitter_username:   huxpro
+#weibo_username:     huxpro
+zhihu_username:     Jiang_doc
+github_username:    jiangdoc
+#twitter_username:   huxpro
 #facebook_username:  huxpro
 #linkedin_username:  firstname-lastname-idxxxx
 
@@ -59,7 +59,7 @@ kramdown:
 
 
 # Disqus settings（评论功能）
-disqus_username: hux
+#disqus_username: hux
 
 # Netease settings
 netease_comment: false
@@ -72,7 +72,7 @@ netease_comment: false
 
 # Google Analytics：网站分析，现在支持百度统计和Google Analytics
 ga_track_id: 'UA-49627206-1'             # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: huangxuan.me                  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
+ga_domain: auto                  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
 
 
 
