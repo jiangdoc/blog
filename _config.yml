@@ -1,11 +1,11 @@
 # Site settings
 title: Jiang Blog
 SEOTitle: 乱码人生的博客 | Jiang Blog
-header-img: img/home-bg.jpg
+header-img: https://jiangdoc.github.io/blog.github.io/img/home-bg.jpg
 email: 535516316@qq.com
 description: "关于程序与设计、黑客与画家 | 黄玄，Web & Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。"
 keyword: "黄玄, Hux黄玄, Hux, 鬼栈, huxpro, @huxpro, 黄玄的博客, Hux Blog, 博客, 个人网站, 互联网, Web, JavaScript, 前端, 设计"
-url: "https://Jiang.me"              # your host, for absolute URL
+#url: "https://Jiang.me"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 # Publish posts or collection documents with a future date.
@@ -79,7 +79,7 @@ ga_domain: huangxuan.me                  # 默认的是 auto, 这里我是自定
 # Sidebar settings
 sidebar: true                           # 添加侧边栏.
 sidebar-about-description: "For the next quantum leap<br>离开世界之前，一切都是过程"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # 你的大头贴，请使用绝对地址.
+sidebar-avatar: https://jiangdoc.github.io/blog.github.io/img/avatar-hux-ny.jpg      # 你的大头贴，请使用绝对地址.
 
 
 
