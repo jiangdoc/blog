@@ -13,7 +13,7 @@ future: true
 
 # SNS settings
 RSS: false
-weibo_username:     huxpro
+csdn_username:      
 zhihu_username:     Jiang_doc
 github_username:    jiangdoc
 weixin_username:   wxccxn
