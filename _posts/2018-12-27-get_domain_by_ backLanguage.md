@@ -4,7 +4,7 @@ title: "怎么通过前端知道后台信息？？"
 subtitle: "How do you know the background information through HTML？"
 author: "乱码人生"
 date: 2018-12-27 13:40:31
-header-img: "img/about-bg-walle.jpg"
+header-style: text
 tags:
      - HTML
      - 杂七杂八
@@ -18,7 +18,7 @@ tags:
 
 效果：
 
-![img](img/in-post/2018-12-27-get_domain_by_backLanguage/1.png)
+![img](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-27-get_domain_by_backLanguage/1.png)
 
 #### 2.通过firebug或者chrome的开发者工具来查看网页的Response Headers
 
@@ -28,7 +28,7 @@ tags:
 
 效果：
 
-![](img/in-post/2018-12-27-get_domain_by_backLanguage/2.png)
+![](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-27-get_domain_by_backLanguage/2.png)
 
 #### 3.通过网络请求扩展名来看
 

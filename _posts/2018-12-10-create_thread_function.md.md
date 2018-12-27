@@ -4,7 +4,7 @@ title: "创建线程的三种方式"
 subtitile: "创建线程的三种方式."
 date: 2018-12-20 11:00:00
 author: "乱码人生"
-header-img: ""
+header-style: text
 tags:
      - Java
      - JavaSE
