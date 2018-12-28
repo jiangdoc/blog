@@ -142,9 +142,7 @@ deploy：将打包产物安装到远程仓库
 
 就将maven-myquery-plugin中的query这个goal绑定到了test这个phase，后续在maven执行到test phase时就会执行query goal。还有有人可能会问，我都没有指定Java源文件的位置，编译啥？这就引出了maven的design principle。在maven中，有一个非常著名的principle就是convention over configuration（约定优于配置）。这一点和ant有非常大的区别，例如使用ant来进行编译时，我们需要指定源文件的位置，输出文件的位置，javac的位置，classpath... ...在maven中这些都是不需要，若没有手动配置，maven默认从<项目根目录>/src/main/java这个目录去查找Java源文件，编译后的class文件会保存在<项目根目录>/target/classes目录。在maven中，所有的PO都有一个根对象，就是Super POM。Super POM中定义了所有的默认的配置项。Super POM对应的pom.xml文件可以在maven安装目录下lib/maven-model-builder-3.0.3.jar:org/apache/maven/model/pom-4.0.0.xml中找到。用一张图来表示maven Lifecycle，phase，goal之间的关系：
 
-
-
-![img](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-28/1.webp)
+![img](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-28/1.png)
 
 Lifecyle-phase-plugin-goal关系图
 
