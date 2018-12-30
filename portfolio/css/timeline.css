@@ -57,7 +57,7 @@ body, html {
 	font-size: 1.0em;
 	position: absolute;
 	top: 0px;
-	line-height: 64px;
+	line-height: 50px;
 	right: 5px;
 	margin-right: 1em;
 	color: #a5a7aa;
@@ -70,11 +70,11 @@ body, html {
 
 /* The card */
 .cbp_tmtimeline > li .cbp_tmlabel {
-	background: white;
+	background: #f6f6f6;
 	color: rgb(78, 78, 78);
 	/* line-height: 1.4; */
 	position: relative;
-	border-radius: 3px;
+	border-radius: 15px;
 	border: 1px solid #edeeee;
 	margin: 0 0 30px 0;
 	font-weight: 400;
@@ -84,10 +84,12 @@ body, html {
 .cbp_tmtimeline > li .cbp_tmlabel h2 {
 	font-weight: bold;
 	font-size: 15px;
-	padding: 14px 20px;
+	color: #a5a7aa;
+	padding: 10px 20px;
 	margin: 0;
-	height: 64px;
+	height: 50px;
 	line-height: 36px;
+	border-bottom: 1px solid #b0b5c2;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
