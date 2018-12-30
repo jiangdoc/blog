@@ -8,6 +8,6 @@ Hey，我是Jiang，一个乱码的程序猿，进化程度不明，多出没于
 一些作品和开源软件项目，👉 戳 [Github](https://github.com/jiangdoc)
 
 ##### Talks
-- [暂时没有，但相信以后会有的。。] · [中国 2018/12/25](https://www.zhihu.com/people/Jiang_do)
+- [暂时没有，但相信以后会有的。。] · [中国 2018/12/25](https://www.zhihu.com/people/Jiang_doc)
 
 
