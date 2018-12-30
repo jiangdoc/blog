@@ -27,9 +27,9 @@ form表单会在提交请求时,会获取form中input标签存在name的属性�
 
 
 
-![img](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-24-JavaWeb_Login_Security/1.bmp)例如我的账号是user1，密码是123456，那么我在提交登录的时候会给后台发送的HTTP请求如下（Chrome或者FireFox开发者工具捕获，需开启Preserve log）：
+![img](https://jiangdoc.github.io/blog/img/in-post/2018-12-24-JavaWeb_Login_Security/1.bmp)例如我的账号是user1，密码是123456，那么我在提交登录的时候会给后台发送的HTTP请求如下（Chrome或者FireFox开发者工具捕获，需开启Preserve log）：
 
-![img](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-24-JavaWeb_Login_Security/2.bmp)
+![img](https://jiangdoc.github.io/blog/img/in-post/2018-12-24-JavaWeb_Login_Security/2.bmp)
 
 可以发现即便password字段是黑点，但是本机仍以明文的形式截获请求。
 
@@ -37,7 +37,7 @@ form表单会在提交请求时,会获取form中input标签存在name的属性�
 
 在网络传输过程中，被嗅探到的话会直接危及用户信息安全，以Fiddler或Wireshark为例，发现捕获的HTTP报文中包含敏感信息
 
-![img](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-24-JavaWeb_Login_Security/3.bmp)
+![img](https://jiangdoc.github.io/blog/img/in-post/2018-12-24-JavaWeb_Login_Security/3.bmp)
 
 #### 3. 使用加密算法能保证密码安全吗？
 
@@ -89,7 +89,7 @@ WEB前端可以通过某种算法，对密码字段进行加密后，在将密�
 ##### 5. 那太好了！这样可以省下HTTPS的钱了，真是这样吗？
 
 回到开头的例子：用户输入的用户名是：user1，密码是：123456，那么不管在什么协议之下，可以看到实际发送的HTTP/HTTPS报文在MD5处理后是这样的：
-![img](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-24-JavaWeb_Login_Security/4.bmp)
+![img](https://jiangdoc.github.io/blog/img/in-post/2018-12-24-JavaWeb_Login_Security/4.bmp)
 
 没错，加密登录成功了。但是，当我们庆祝密码安全的时候，发现账户的钱突然不翼而飞。这是为什么呢？黑客却笑的很开心：因为他们并不一定要获取到你的密码明文，如果直接截获你的密码密文，然后发送给服务器不是一样可以登录吗？因为数据库里的不也是MD5(password)的一样的密文吗？HTTP请求被伪造，一样可以登录成功，从而攫取其他的数据或者转走余额。
 

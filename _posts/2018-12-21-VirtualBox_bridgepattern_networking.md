@@ -13,8 +13,8 @@ tags:
 ### VirtualBox桥接模式下虚拟机联网
 
 1. 首先打开虚拟机，选择虚拟系统，右击设置网络，注意“连接方式：桥接网卡，界面名称：选择自己物理机的网卡”
-    ![在这里插入图片描述](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-21-VirtualBox_bridgepattern_networking/1.png)
-    ![在这里插入图片描述](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-21-VirtualBox_bridgepattern_networking/2.png)
+    ![在这里插入图片描述](https://jiangdoc.github.io/blog/img/in-post/2018-12-21-VirtualBox_bridgepattern_networking/1.png)
+    ![在这里插入图片描述](https://jiangdoc.github.io/blog/img/in-post/2018-12-21-VirtualBox_bridgepattern_networking/2.png)
 
 
 2. 配置Linux网络设置。
@@ -22,7 +22,7 @@ tags:
 首先查看物理机的IP地址：window+R 输入 cmd
 >ipconfig/all
 
-![在这里插入图片描述](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-21-VirtualBox_bridgepattern_networking/3.png)
+![在这里插入图片描述](https://jiangdoc.github.io/blog/img/in-post/2018-12-21-VirtualBox_bridgepattern_networking/3.png)
 
 然后配置Linux网络：
 

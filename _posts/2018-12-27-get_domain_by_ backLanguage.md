@@ -18,7 +18,7 @@ tags:
 
 效果：
 
-![img](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-27-get_domain_by_backLanguage/1.png)
+![img](https://jiangdoc.github.io/blog/img/in-post/2018-12-27-get_domain_by_backLanguage/1.png)
 
 #### 2.通过firebug或者chrome的开发者工具来查看网页的Response Headers
 
@@ -28,7 +28,7 @@ tags:
 
 效果：
 
-![](https://jiangdoc.github.io/blog.github.io/img/in-post/2018-12-27-get_domain_by_backLanguage/2.png)
+![](https://jiangdoc.github.io/blog/img/in-post/2018-12-27-get_domain_by_backLanguage/2.png)
 
 #### 3.通过网络请求扩展名来看
 
