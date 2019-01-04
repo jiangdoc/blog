@@ -74,7 +74,7 @@ body, html {
 	color: rgb(78, 78, 78);
 	/* line-height: 1.4; */
 	position: relative;
-	border-radius: 15px;
+	border-radius: 10px;
 	border: 1px solid #edeeee;
 	margin: 0 0 30px 0;
 	font-weight: 400;
@@ -85,11 +85,11 @@ body, html {
 	font-weight: bold;
 	font-size: 15px;
 	color: #a5a7aa;
-	padding: 10px 20px;
+	padding: 5px 20px;
 	margin: 0;
-	height: 50px;
-	line-height: 36px;
-	border-bottom: 1px solid #b0b5c2;
+	height: 40px;
+	line-height: 30px;
+	border-radius: 10px 10px 0 0;
 }
 
 .cbp_tmtimeline > li:nth-child(odd) .cbp_tmlabel:after {
@@ -256,7 +256,7 @@ header img{
     list-style: none;
 }
 .cbp_tmlabel ul li{
-    padding: 0.5em 0;
+    padding: 1.5em 0;
 }
 .cbp_tmlabel ul li.skill{
 	overflow: auto;
